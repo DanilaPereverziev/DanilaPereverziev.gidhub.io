@@ -1,0 +1,106 @@
+.onetwo {
+    width: 1600px;
+}
+
+.one {
+    display: inline-block;
+    margin-right: 200px;
+    width: 420px;
+    margin-left: 200px;
+}
+
+.two {
+    display: inline-block;
+    width: 420px;
+    margin-left: 60px;
+}
+
+.img-q {
+    width: 420px;
+    height: 320px;
+
+}
+
+.img-w {
+    width: 420px;
+    height: 300px;
+}
+
+
+
+
+
+.threefour {
+    width: 1600px;
+    display: inline-block;
+}
+
+.three {
+    display: inline-block;
+    width: 420px;
+    margin-left: 200px;
+    margin-right: 150px;
+}
+
+.four {
+    display: inline-block;
+    width: 420px;
+    margin-left: 110px;
+    margin-right: 200px;
+}
+
+.img-e {
+    width: 420px;
+    height: 300px;
+
+}
+
+.img-r {
+    width: 420px;
+    height: 300px;
+}
+
+.btn {
+    margin-left: 700px;
+    border: solid 3px black;
+    width: 50px;
+}
+
+
+nav {
+    width: 1600px;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.nav-a {
+    display: inline-block;
+    margin-left: 220px;
+    
+}
+
+.nav-b {
+    display: inline-block;
+    margin-left: 220px;
+}
+
+.nav-c {
+    display: inline-block;
+    margin-left: 220px;
+}
+
+.nav-d {
+    display: inline-block;
+    margin-left: 220px;
+
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: none;
+}
