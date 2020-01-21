@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,1700&display=swap');
+
+
+.h-z {
+    margin-left: 10px;
+    width: 200px;
+    margin-top: 15px;
+    height: 15px;
+    font-size: 14px;
+}
+
+.img-q {
+    margin-top: 40px;
+    width: 37px;
+    margin-bottom: 0px;
+    
+}
+
+.textl {
+    margin-top: 65px;
+    display: inline-block;
+    margin-left: -205px;
+}
+
+.one {
+    margin-left: 0px;
+    margin-right: 450px;
+    display: inline-block;
+    font-family: 'Montserrat-Bold 1700', sans-serif;
+}
+
+.two {
+    margin-right: 60px;
+    display: inline-block;
+}
+
+.three {
+    margin-right: 60px;
+    display: inline-block;
+}
+
+.four {
+    margin-right: 60px;
+    display: inline-block;
+}
+
+.five {
+    margin-right: 60px;
+    display: inline-block;
+}
+
+.six {
+    margin-right: 60px;
+    display: inline-block;
+}
+
+.nav {
+    background-color: seagreen;
+}
+
+.co {
+    display: inline-block;
+    margin-left: 300px;
+    color:  #95e1d3;
+}
+
+.ko {
+    display: inline-block;
+    color:  #95e1d3;
+
+}
+
+.xo {
+    display: inline-block;
+    color:  #95e1d3;
+}
+
+.go {
+    display: inline-block;
+    color:  #95e1d3;
+}
+
+.no {
+    display: inline-block;
+    color:  #95e1d3;
+}
+    
+.bo {
+    display: inline-block;
+    color:  #95e1d3;
+}
+
+
+    a:hover {
+
+        color: #f8b7b7;
+        
+        text-decoration: underline
+        
+        }
+
+        .go::after {
+            content: '';
+             display: block;
+             width: 63px;
+             height: 2px;
+             transform: scaleX(0);
+             background-color: crimson;
+             transition: all 0.2s;
+         }
+         .go:hover::after {
+             transform: scaleX(1);
+         }
+
+        .ko::after {
+            content: '';
+             display: block;
+             width: 80px;
+             height: 2px;
+             transform: scaleX(0);
+             background-color: crimson;
+             transition: all 0.2s;
+         }
+         .ko:hover::after {
+             transform: scaleX(1);
+         }
+
+        .xo::after {
+            content: '';
+             display: block;
+             width: 70px;
+             height: 2px;
+             transform: scaleX(0);
+             background-color: crimson;
+             transition: all 0.2s;
+         }
+         .xo:hover::after {
+             transform: scaleX(1);
+         }
+
+
+        .bo::after {
+            content: '';
+             display: block;
+             width: 70px;
+             height: 2px;
+             transform: scaleX(0);
+             background-color: crimson;
+             transition: all 0.2s;
+         }
+         .bo:hover::after {
+             transform: scaleX(1);
+         }
+
+        .lo::after {
+            content: '';
+             display: block;
+             width: 53px;
+             height: 2px;
+             transform: scaleX(0);
+             background-color: crimson;
+             transition: all 0.2s;
+         }
+         .lo:hover::after {
+             transform: scaleX(1);
+         }
+
+         .jo::after {
+            content: '';
+             display: block;
+             width: 93px;
+             height: 2px;
+             transform: scaleX(0);
+             background-color: crimson;
+             transition: all 0.2s;
+         }
+         .jo:hover::after {
+             transform: scaleX(1);
+         }
+
+ .one {
+     color: #95e1d3;
+     font-size: 21px;
+ }
+
+ .two {
+     color: #95e1d3;
+     font-size: 20px;
+ }
+ 
+  .three {
+    color: #95e1d3;
+    font-size: 20px;
+  }
+
+  .four {
+    color: #95e1d3;
+    font-size: 20px;
+  }
+
+.five {
+    color: #95e1d3;
+    font-size: 20px;
+}
+        
+   .six {
+    color: #95e1d3;
+    font-size: 20px;
+   }
+        
+   .ko {
+       margin-top: 30px;
+   }
+
+.wer {
+    margin-left: 700px;
+    margin-top: 130px;
+    font-size: 20px;
+}
+
+.wet {
+    margin-left: 650px;
+    font-size: 22px;
+
+}
+
+
+.wert::after {
+    content: '';
+     display: block;
+     width: 50px;
+     height: 2px;
+     transform: scaleX(0);
+     background-color: crimson;
+     transition: all 0.2s;
+     margin-left: 735px;
+     margin-top: 43px;
+ }
+ .wert:hover::after {
+     transform: scaleX(1);
+ }
+
+ .wert {
+     margin-left: 0px;
+     height: 200px;
+ }
+
+ .divc {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .hone {
+     margin-top: -25px;
+ }
+
+ .htwo {
+     margin-top: -25px;
+ }
+
+ .hthree {
+    margin-top: -25px;
+}
+
+.divb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+
+
+.hfour {
+    margin-top: -25px;
+}
+
+.hfive {
+    margin-top: -25px;
+}
+
+.hsix {
+    margin-top: -25px;
+}
+
+.dfg {
+    margin-left: 25px;
+    font-size: 25px;
+
+}
+
+.hjk {
+    font-size: 23px;
+}
+
+.asd {
+    margin-top: 95px;
+    margin-left: 670px;
+    width: 200px;
+}
+
+.asd::after {
+    content: '';
+     display: block;
+     width: 50px;
+     height: 2px;
+     transform: scaleX(0);
+     background-color: crimson;
+     transition: all 0.2s;
+     margin-left: 70px;
+     margin-top: 43px;
+ }
+ .asd:hover::after {
+     transform: scaleX(1);
+ }
+
+.lort {
+    margin-left: 310px;
+    color: gray;
+    margin-top: 50px;
+}
+
+.lord {
+    margin-left: 250px;
+    color: gray;
+}
+
+.try {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/*
+
+.ty::before {
+    position: relative;
+    background-image: url(../img/play.jpg);
+    width: 360px;
+ height: 460px;
+
+
+}
+
+.ty:hover::after {
+
+    content: '';
+ width: 360px;
+ height: 460px;
+ position: absolute;
+ background: linear-gradient( top, rgb(255,0,0,0.8), rgb(255,255,0,0.8));
+
+ margin-left: -360px;
+
+}
+
+.get {
+    margin-top: 600px;
+    margin-left: -650px;
+}
+
+.ger {
+    margin-top: 15px;
+    margin-bottom: 85px;
+}
+
+.tr {
+    margin-left: 100px;
+}
+
+.boxc {
+width: 389px;
+height: 480px;
+background-image: url(../img/fsfhy.jpg);
+
+position: relative;
+}
+
+.gradient {
+    display: none;
+    
+}
+
+.boxc:hover .gradient {
+    display: block;
+}
+
+.boxc:hover::after {
+
+    content: '';
+ width: 50px;
+ height: 50px;
+ margin-top: 0px;
+ position: absolute;
+ background-color: gold;
+ margin-left: 0px;
+ margin-bottom: 0px;
+
+
+}
+
+
+.ty {
+    margin-bottom: 40px;
+ } 
+
+ .boxc::before {
+    position: relative;
+    background-image: url(../img/play.jpg);
+    width: 360px;
+ height: 460px;
+ }
+
+ .p {
+     margin-top: 380px;
+     margin-left: 240px;
+     margin-right: 190px;
+     width: 400px;
+ }
+
+ .bgh {
+     margin-left: 1000px;
+     margin-top: -35px;
+     float: left;
+ }
+
+ .rty {
+     height: 30px;
+     width: 130px;
+     margin-left: 1163px;
+     margin-top: -35px;
+     float: left;
+     background-color: chartreuse;
+  } 
+  
+  .men {
+      width: 200px;
+      height: 300px;
+      background-image: url(../img/fgh.jpg);
+  }
+
+.gradients {
+    display: none;
+    background-image: linear-gradient( top, rgb(255,0,0,0.8), rgb(255,255,0,0.8));
+}
+
+.men:hover .gradients {
+    display: block;
+    
+}
+
+.icon {
+    background-color: yellow;
+}
+
+.gradients:hover {
+    background-color: aqua;
+}
+
+.photo-q {
+    display: inline-block;
+
+}
+
+
+.photo-w {
+    display: inline-block;
+
+}
+
+
+.photo-e {
+    display: inline-block;
+
+}
+
+.span-g {
+    margin-left: 100px;
+    color: #777777;
+    margin-bottom: 100px;
+}
+
+.span-o {
+    margin-left: 100px;
+    color: #7777;
+}
+
+/*
