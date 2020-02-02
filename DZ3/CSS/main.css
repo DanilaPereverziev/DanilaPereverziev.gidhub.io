@@ -1,82 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400&display=swap');
+
+
 .body {
     width: 1400px;
 }
 
-.onetwo {
-    width: 1400px;
-    margin-left: 50px;
+.L-block-A {
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.one {
+.S-one {
     display: inline-block;
     margin-right: 200px;
-    width: 370px;
+    width: 421px;
     margin-left: 200px;
 }
 
-.two {
+.S-two {
     display: inline-block;
-    width: 370px;
+    width: 421px;
     margin-left: 60px;
 }
 
 .img-q {
-    width: 370px;
+    width: 421px;
     height: 300px;
+    margin-bottom: 32px;
 
 }
 
 .img-w {
-    width: 370px;
+    width: 421px;
     height: 300px;
+    margin-bottom: 32px;
+
 }
 
 
 
 
-
-.threefour {
-    width: 1400px;
-    display: inline-block;
-    margin-left: 50px;
+.L-block-B {
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 140px;
 }
 
-.three {
+.S-three {
     display: inline-block;
-    width: 370px;
+    margin-right: 200px;
+    width: 421px;
     margin-left: 200px;
-    margin-right: 150px;
 }
 
-.four {
+.S-four {
     display: inline-block;
-    width: 370px;
-    margin-left: 110px;
+    width: 421px;
+    margin-left: 60px;
 }
 
 .img-e {
-    width: 370px;
+    width: 421px;
     height: 300px;
+    margin-bottom: 32px;
+
 
 }
 
 .img-r {
-    width: 370px;
+    width: 421px;
     height: 300px;
+    margin-bottom: 32px;
+
 }
+
 
 .btn {
-    margin-left: 660px;
-    border: solid 1px black;
-    width: 100px;
-    margin-top: 50px;
-    background-color: white;
-}
-
-.btn-two {
-    width: 100px;
-    height: 40px;
-    background-color: white;
+ 
+   margin-top: 55px;
+   border: solid 1px black;
+   padding: 20 35;
+   width: 165px; 
+   height: 60px;
+   background-color: white;
+   margin-left: 670px;
+   font-size: 16px;
+   font-family: 'Playfair Display', serif;
 }
 
 
@@ -91,7 +107,7 @@ nav {
 .nav-a {
     display: inline-block;
     margin-left: 220px;
-    
+
 }
 
 .nav-b {
@@ -112,19 +128,32 @@ nav {
 
 a {
     text-decoration: none;
-    color: darkblue;
+    color: #7d7d7d;
+    font-family: 'Playfair Display', serif;
+
 }
 
 a:hover {
-    color: aqua;
+    color: #03a9f4;
     text-decoration: none;
+    font-family: 'Playfair Display', serif;
+
 }
 
-.h {
+h3 {
     font-size: 26px;
     margin-bottom: -5px;
+    color: #626262;
 }
 
 p {
-    margin-bottom: 10px;
+    margin-top: 42px;
+    color: #626262;
+    font-size: 16px;
+}
+
+span {
+    color: #c8c3b9;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
 }
