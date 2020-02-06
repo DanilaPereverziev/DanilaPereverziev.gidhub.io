@@ -10,7 +10,7 @@ html {
     width: 1200px;
 }
 
-.L-block-A {
+.min-content-A {
     width: 900px;
     display: flex;
     flex-direction: row;
@@ -19,24 +19,24 @@ html {
     margin-left: 300px;
 }
 
-.S-one {
+.one-block {
     display: inline-block;
     width: 420px;
 }
 
-.S-two {
+.two-block {
     display: inline-block;
     width: 420px;
 }
 
-.img-q {
+.img-one {
     width: 421px;
     height: 300px;
     margin-bottom: 32px;
 
 }
 
-.img-w {
+.img-two {
     width: 421px;
     height: 300px;
     margin-bottom: 32px;
@@ -46,7 +46,7 @@ html {
 
 
 
-.L-block-B {
+.min-content-B {
     width: 900px;
     display: flex;
     flex-direction: row;
@@ -56,17 +56,17 @@ html {
     margin-left: 300px;
 }
 
-.S-three {
+.three-block {
     display: inline-block;
     width: 421px;
 }
 
-.S-four {
+.four-block {
     display: inline-block;
     width: 421px;
 }
 
-.img-e {
+.img-three {
     width: 421px;
     height: 300px;
     margin-bottom: 32px;
@@ -74,7 +74,7 @@ html {
 
 }
 
-.img-r {
+.img-four {
     width: 421px;
     height: 300px;
     margin-bottom: 32px;
@@ -106,7 +106,7 @@ html {
 }
 
 
-nav {
+.nav {
     width: 900px;
     display: inline-block;
     margin-bottom: 100px;
@@ -119,20 +119,20 @@ nav {
     
 }
 
-.nav-a {
+.nav-life {
     display: inline-block;
 
 }
 
-.nav-b {
+.nav-photo {
     display: inline-block;
 }
 
-.nav-c {
+.nav-music {
     display: inline-block;
 }
 
-.nav-d {
+.nav-travel {
     display: inline-block;
 
 }
