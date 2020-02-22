@@ -1,7 +1,7 @@
 // let str = "Привет";
 // let num = 123;
 // let flag = true;
-// let txt = "true"
+// let txt = "true";
 // console.log(typeof(str));
 // console.log(typeof(num));
 // console.log(typeof(flag));
@@ -65,24 +65,24 @@
 
 
 
-// let heightC=10,
-//     dC=4,
-//     v;
-// dC= dC / 2;
-// let P = 3.14;
-// v=P * dC^2 * heightC;
+//  let heightC=10,
+//      dC=4,
+//      r,
+//      v;
+//  r = dC / 2;
+//  let P = 3.14;
+//  v=P * r**2 * heightC;
+
+//  console.log(v);
 
 
-// console.log(v);
 
-
-
-//  let n=3,
-//      m=4,
-//      k;
-//    k=k**2;
-//   c= Math.sqrt( (3**2) + (4**2) );
-//      console.log(c);
+//   let n=3,
+//       m=4,
+//       k;
+//     k=Math.pow(k,2);
+//   c= Math.sqrt( (Math.pow(3,2)) + (Math.pow(4,2)) );
+//       console.log(c);
 
 
 // let s=2000,
@@ -92,6 +92,4 @@
 // let perepl= s*p/proc*years;
 // console.log(perepl); 
 
-
-
-   
+  
