@@ -1,19 +1,19 @@
 // #1
-// // let today = 01032020;
+// // let today = 01;
 
-// // if (today<02032020){
+// // if (today<02){
 // //    console.log("сьогодны перше число");
-// // }else(today=>02032020);
+// // }else(today=>02);
 // //     console.log(no);
 
 
 // #2
-// let today = 01032020;
+// let today = 01;
 
 // if (today%2==0){
-//    console.log("01032020");
-// }else{
-//     console.log(upppss)};
+//     console.log("01");}
+// else{
+//     console.log(upppss);}
 
 
 // #3
@@ -36,14 +36,14 @@
 
 // #5
 // let a,
-//     b,
-//     c;
+//     b;
+
 // a=Math.floor(Math.random() * (1 - 0 + 1)) + 1;
 // b=Math.floor(Math.random() * (1 - 0 + 1)) + 1;
-// c=Math.floor(Math.random() * (1 - 0 +1 )) + 1;
 // console.log(a);
 // console.log(b);
-// console.log(c)
+
+
 
 //     if( a==1 && b==1 && c==1 || a==2 && b==2 && c==2){
 //         console.log('ФАРТ')
@@ -90,4 +90,3 @@
 // let myAge=11,
 //     VaniaAge=13;
 // prompt(myAge+VaniaAge);
-
