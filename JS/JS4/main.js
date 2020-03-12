@@ -1,16 +1,14 @@
 // #1
-// let num = 0;
 
-// while(num<10);{
-//     num++;
-//     console.log(num);
+// for(let i=0; i<10; i++){
+//    console.log(i);
 // }
 
 
 // // #2
 // let num = 0;
-// while(num<10);{
-//     num++
+// while(num<10){
+//     num++;
 // if (num%2==0);{
 //     console.log("Парне");
 // }else{
@@ -21,9 +19,9 @@
 //  #3
 // let num = 20;
 
-// while(num<28){
-//     num++
-//     console.log(num)
+// while(num<29){
+//     num++;
+//     console.log(num);
 // }
 
 
@@ -69,8 +67,8 @@
 
 
 // #7
-masiv = [1,2,3,4,5,6];
-let result = ""
-for(let i=-1; i<masiv.length; i+6){
-   let con = console.log(masiv[i+1]+'-',masiv[i+2]+'-',masiv[i+3]+'-',masiv[i+4]+'-',masiv[i+5]+'-',masiv[i+6]+'-');
-}
+// masiv = [1,2,3,4,5,6];
+// let result = ""
+// for(let i=-1; i<masiv.length; i+6){
+//    let con = console.log(masiv[i+1]+'-',masiv[i+2]+'-',masiv[i+3]+'-',masiv[i+4]+'-',masiv[i+5]+'-',masiv[i+6]+'-');
+// }
