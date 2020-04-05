@@ -3,7 +3,7 @@
 //     name: "Даня",
 //     yearsold: 11,
 //     state: "мальчик",
-//     married: False,
+//     married: false,
 // }
 
 // #2
@@ -67,4 +67,4 @@
 // function ploshcha(height,width){
 //     return console.log(height * width);
 // }
-// ploshcha(300,200);
+// console.log(cafe.width * cafe.height);
