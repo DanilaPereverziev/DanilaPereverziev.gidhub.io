@@ -43,8 +43,12 @@
 // img.src="./img/second.jpg";
 
 // #7
-// let img2 = document.querySelector(".beautiful");
-// img2.src="./img/four.jpg";
+// let three = document.querySelector(".three"),
+//     four = document.querySelector(".four");
+// if(three.classList.contains('beautiful')){
+//     three.style.display='none',
+//     four.style.display='block';
+// }
 
 // #8
 // let checked = document.querySelectorAll(".checkbox");
