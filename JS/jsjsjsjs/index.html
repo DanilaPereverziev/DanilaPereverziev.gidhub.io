@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .input2{
+            font-size: 16px;
+  padding: 10px;
+  display: block;
+  width: 300px;
+  display: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+        }   
+        .input3{
+            font-size: 16px;
+  padding: 10px;
+  display: block;
+  width: 300px;
+  display: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+        }   
+        .input4{
+            font-size: 16px;
+  padding: 10px;
+  display: block;
+  width: 300px;
+  display: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+        }  
+        .xcy {
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  width: 300px;
+  display: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.xcy:focus {
+  outline: none;
+}
+
+span {
+	position: relative;
+    display: inline;
+    vertical-align: middle;
+    font-size: 23px;
+    font-weight: 600;
+    z-index: 5;
+}
+
+
+.btn2 {	  
+  display: none;
+	padding: 15px 30px;
+	margin: 0 20px;
+    color: #fff;
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 3px solid;
+    background: #2752f3;
+	outline: none;
+    cursor: pointer;
+    margin-left: 21px;
+}
+
+.btn-2:hover{
+  transition: 0.5s;
+  background-color: #fff;
+  color: #2752f3;
+}
+
+.btn-2 span:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 15px;
+    left: -5px;
+    width: calc(100% + 10px);
+    z-index: -1;  
+    transform-origin: 0 0;
+	transition: .3s cubic-bezier(.075,.82,.165,1); 
+}
+
+.btn3 {	  
+  display: none;
+	padding: 15px 30px;
+	margin: 0 20px;
+    color: #fff;
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 3px solid;
+    background: #2752f3;
+	outline: none;
+    cursor: pointer;
+    margin-left: -21px;
+}
+
+.btn-3:hover{
+  transition: 0.5s;
+  background-color: #fff;
+  color: #2752f3;
+}
+
+.btn-3 span:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 15px;
+    left: -5px;
+    width: calc(100% + 10px);
+    z-index: -1;  
+    transform-origin: 0 0;
+	transition: .3s cubic-bezier(.075,.82,.165,1); 
+}
+
+.btn4 {	  
+  display: none;
+	padding: 15px 30px;
+	margin: 0 20px;
+    color: #fff;
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 3px solid;
+    background: #2752f3;
+	outline: none;
+    cursor: pointer;
+    margin-left: -21px;
+}
+
+.btn-4:hover{
+  transition: 0.5s;
+  background-color: #fff;
+  color: #2752f3;
+}
+
+.btn-4 span:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 15px;
+    left: -5px;
+    width: calc(100% + 10px);
+    z-index: -1;  
+    transform-origin: 0 0;
+	transition: .3s cubic-bezier(.075,.82,.165,1); 
+}
+
+
+
+.btn5 {	  
+	padding: 15px 30px;
+	margin: 0 20px;
+    color: #f83b3b;
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 3px solid;
+    background: white;
+	outline: none;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.btn-5 span:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 15px;
+    left: -5px;
+    width: calc(100% + 10px);
+    z-index: -1;  
+    transform-origin: 0 0;
+	transition: .3s cubic-bezier(.075,.82,.165,1); 
+}
+
+.btn5 {	  
+  display: none;
+	padding: 15px 30px;
+	margin: 0 20px;
+    color: #fff;
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 3px solid;
+    background: #2752f3;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn-5:hover{
+  transition: 0.5s;
+  background-color: #fff;
+  color: #2752f3;
+}
+
+.btn-5 span:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 15px;
+    left: -5px;
+    width: calc(100% + 10px);
+    z-index: -1;  
+    transform-origin: 0 0;
+	transition: .3s cubic-bezier(.075,.82,.165,1); 
+}
+
+
+.help {	  
+  display: none;
+	padding: 15px 30px;
+	margin: 0 20px;
+    color: #fff;
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 3px solid;
+    background: #f83b3b;
+	outline: none;
+	cursor: pointer;
+    margin-left: 70px;
+}
+
+.btn-help:hover{
+  transition: 0.5s;
+  background-color: #fff;
+  color: #f83b3b;
+}
+
+.btn-help span:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 15px;
+    left: -5px;
+    width: calc(100% + 10px);
+    z-index: -1;  
+    transform-origin: 0 0;
+	transition: .3s cubic-bezier(.075,.82,.165,1); 
+}
+
+
+.btn6 {	  
+  display:block;
+	padding: 15px 30px;
+	margin: 0 20px;
+    color: #fff;
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 3px solid;
+    background: #69ebd1;
+	outline: none;
+	cursor: pointer;
+    margin-left: 1320px;
+    margin-top: -47px;
+}
+
+.btn-6:hover{
+  transition: 0.5s;
+  background-color: #fff;
+  color: #69ebd1;
+}
+
+.btn-6 span:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 15px;
+    left: -5px;
+    width: calc(100% + 10px);
+    z-index: -1;  
+    transform-origin: 0 0;
+	transition: .3s cubic-bezier(.075,.82,.165,1); 
+}
+
+.input5 {
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  width: 300px;
+  display: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-left: 60px;
+}
+.input5:focus {
+  outline: none;
+}
+.input6 {
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  width: 200px;
+  display: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-left: 230px;
+}
+.input6:focus {
+  outline: none;
+}
+
+
+.input7 {
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-left: 1230px;
+  margin-top: -70px;
+}
+.input7:focus {
+  outline: none;
+}
+.flex{
+    margin-top: 50px;
+    width: 400px;
+    margin-left: 300px;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+    </style>
+    <input class="input" placeholder="Введите команду" type="text">
+    <input class="input2 inputw" placeholder = "первое число" type="number">
+    <input class="input3" placeholder = "действие(+,-,*,/,%)" type="text">
+    <input class="input4" placeholder = "второе число" type="number">
+    <button class="btn">Enter</button>
+    <div class="btnbtnbtn">
+    <div class="flex">
+    <div class="flex1">
+      <button class="btn2 btn-2"><span>/circlearea</span></button>
+      <button class="btn3 btn-3"><span>/cylindervolume</span></button>
+    <button class="btn4 btn-4"><span>/numberroot</span></button>
+    </div>
+    <div class="flex2">
+    <input class="input5" type="number" placeholder="">
+    <button class="btn5 btn-5 "><span>/kattet</span></button>
+    <button class="help btn-help"><span>HELP</span></button>
+    </div>
+    </div>
+    </div>
+    <input type="number" class="input6" >
+    <input type="text" class = "input7" readonly>
+    <button class="btn6 btn-6">Запустить Таймер</button>
+    <input class="xcy" placeholder="Ответ" type="text">
+    <script src="main.js"></script>
+</body>
+</html>
