@@ -315,7 +315,7 @@ span {
 .flex{
     margin-top: 50px;
     width: 400px;
-    margin-left: 300px;
+    margin-left: 600px;
 }
 .flex1{
     display: flex;
@@ -330,30 +330,82 @@ span {
     align-items: stretch;
 }
 
+.btn-set{
+  display: none;
+}
+.btn-set2{
+  display: none;
+}
+.settext{
+  display: none;
+}
+.set1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: -1350px;
+}
+
+.set2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: -1330px;
+}
+.btn-set3{
+  display: none;
+}
+.btn-set4{
+  display: none;
+}
+.settext2{
+  display: none;
+}
+.set{
+  margin-top: 100px;
+}
     </style>
-    <input class="input" placeholder="Введите команду" type="text">
-    <input class="input2 inputw" placeholder = "первое число" type="number">
-    <input class="input3" placeholder = "действие(+,-,*,/,%)" type="text">
-    <input class="input4" placeholder = "второе число" type="number">
-    <button class="btn">Enter</button>
-    <div class="btnbtnbtn">
+<div class="html">
+  <input class="input" placeholder="Введите команду" type="text">
+  <input class="input2 inputw" placeholder="первое число" type="number">
+  <input class="input3" placeholder="действие(+,-,*,/,%)" type="text">
+  <input class="input4" placeholder="второе число" type="number">
+  <button class="btn">Enter</button>
+  <div class="btnbtnbtn">
     <div class="flex">
-    <div class="flex1">
-      <button class="btn2 btn-2"><span>/circlearea</span></button>
-      <button class="btn3 btn-3"><span>/cylindervolume</span></button>
-    <button class="btn4 btn-4"><span>/numberroot</span></button>
+      <div class="flex1">
+        <button class="btn2 btn-2"><span>/circlearea</span></button>
+        <button class="btn3 btn-3"><span>/cylindervolume</span></button>
+        <button class="btn4 btn-4"><span>/numberroot</span></button>
+      </div>
+      <div class="flex2">
+        <input class="input5" type="number" placeholder="">
+        <button class="btn5 btn-5 "><span>/kattet</span></button>
+        <button class="help btn-help"><span>HELP</span></button>
+      </div>
     </div>
-    <div class="flex2">
-    <input class="input5" type="number" placeholder="">
-    <button class="btn5 btn-5 "><span>/kattet</span></button>
-    <button class="help btn-help"><span>HELP</span></button>
-    </div>
-    </div>
-    </div>
-    <input type="number" class="input6" >
-    <input type="text" class = "input7" readonly>
-    <button class="btn6 btn-6">Запустить Таймер</button>
-    <input class="xcy" placeholder="Ответ" type="text">
-    <script src="main.js"></script>
+  </div>
+  <input type="number" class="input6">
+  <input type="text" class="input7" readonly>
+  <button class="btn6 btn-6">Запустить Таймер</button>
+  <button class="settings">Open-Settings</button>
+  <button class="settings2">Close-Settings</button>
+  <div class="set">
+  <div class="set1">
+  <div class="settext">Dark-theme</div>
+  <button class="btn-set">ВКЛ</button>
+  <button class="btn-set2">ВЫКЛ</button>
+  </div>
+  <div class="set2">
+    <div class="settext2">Mobile-Version</div>
+    <button class="btn-set3">ВКЛ</button>
+    <button class="btn-set4">ВЫКЛ</button>
+  </div>
+  </div>
+  <input class="xcy" placeholder="Ответ" type="text">
+</div>
+<script src="2.0.js"></script>
 </body>
 </html>
